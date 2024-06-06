@@ -27,7 +27,9 @@ if answer3 == "yes":
         print("You ignore the stranger and they push you into the river and you drown.")
 
 else:
-        print('Not a valid option. You lose.')  
+        print('Not a valid option. You lose.')   
+
+        This is a cool edit
 
 
     
