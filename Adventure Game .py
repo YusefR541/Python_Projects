@@ -1,10 +1,12 @@
 name = input("Type your name: ")
 print("Welcome", name, "to this adventure!")
 
-answer = input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go?").lower()
+answer = input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to "
+               "go?").lower()
 
-if answer ==  "left":
-    answer = input("You come to a river. You can walk around it or swim across. Type walk to walk around and type swim to swim across it.")
+if answer == "left":
+    answer = input("You come to a river. You can walk around it or swim across. Type walk to walk around and type swim "
+                   "to swim across it.")
 
     if answer == "swim":
         print("You swam across and were eaten by an alligator.")
@@ -23,13 +25,8 @@ elif answer == "right":
 if answer3 == "yes":
     print("You talk to the stranger and they give you gold. YOU WIN!")
     
-    if answer3 == "no":
-        print("You ignore the stranger and they push you into the river and you drown.")
+if answer3 == "no":
+    print("You ignore the stranger and they push you into the river and you drown.")
 
 else:
         print('Not a valid option. You lose.')   
-
-        This is a cool edit
-
-
-    

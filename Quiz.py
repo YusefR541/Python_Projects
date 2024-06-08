@@ -15,10 +15,10 @@ if x == "b" or x == "B":
 
 print ("3 + 2?")
 
-print ("A. 3")
-print ("B. 6")
-print ("C. 9")
-print ("D. 5")
+print("A. 3")
+print("B. 6")
+print("C. 9")
+print("D. 5")
 
 x = raw_input("Answer: ")
 if x == "d" or x == "D":
@@ -41,4 +41,4 @@ while x == "correct":
         print ("Your score is good")
         x = raw_input("Press enter to quit")        
     else:
-        print ("Your score is not good")
+        print("Your score is not good")
